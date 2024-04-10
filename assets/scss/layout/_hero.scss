@@ -2,16 +2,18 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
+
     &__image {
         width: 75%;
         min-width: 600px;
         height: 100%;
         position: relative;
+
         img {
             width: 100%;
         }
     }
+
     &__data {
         display: flex;
         align-items: center;
@@ -23,13 +25,16 @@
         right: 0;
         height: $sp8;
     }
+
     &__item {
         font-family: $mono;
         padding: $sp4;
-        &-title{
+
+        &-title {
             font-size: $xxl;
         }
     }
+
     &__heading {
         width: 25%;
         min-height: 100%;
@@ -37,26 +42,30 @@
         display: grid;
         place-content: center;
     }
-    &__title{
+
+    &__title {
         font-family: $roboto;
         font-size: $xxxl;
         font-weight: $thin;
     }
-    &__subtitle{
+
+    &__subtitle {
         font-family: $roboto;
         font-size: $md;
     }
+
     &__square {
         width: $sp8;
         height: $sp8;
 
         &--yellow {
-            background-color: $coral;
+            background-color: $flame;
             position: absolute;
             bottom: 0;
         }
+
         &--orange {
-            background-color: $flame;
+            background-color: $coral;
             position: absolute;
             top: -$sp3;
             left: -$sp3;

@@ -1,0 +1,73 @@
+.contacto {
+    width: 100%;
+    display: flex;
+
+    &__data {
+        width: 33%;
+        font-family: $roboto;
+        padding: $sp7;
+    }
+
+    &__title {
+        font-size: $xxl;
+        font-weight: $thin;
+        margin-bottom: $sp4;
+    }
+
+    &__text {
+        font-size: $md;
+    }
+
+    &__mapa {
+        width: 67%;
+        min-width: 400px;
+        position: relative;
+
+        &-map {
+            height: 60%;
+            position: absolute;
+            left: -30px;
+            bottom: -20px;
+        }
+
+    }
+
+    &__azul {
+        background-color: $blue-de-france;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    &__cafetera {
+        width: 33%;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    &__wrapper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    &__cafe {
+
+        position: absolute;
+        width: 120px;
+        height: 212px;
+        left: -40px;
+        z-index: 2;
+    }
+
+    &__maquina {
+        width: 100%;
+        height: 300px;
+        right: 0;
+        position: absolute;
+
+    }
+
+}
